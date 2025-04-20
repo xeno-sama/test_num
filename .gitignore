@@ -1,10 +1,6 @@
 # Miscellaneous
-*.class
 *.log
-*.pyc
-*.swp
 .DS_Store
-.atom/
 .build/
 .buildlog/
 .history
@@ -18,16 +14,10 @@ ios/
 macos/
 windows/
 web/
+linux/
 ##
 
 test/
-dist/
-migrate_working_dir/
-
-# IntelliJ related
-*.iml
-*.ipr
-*.iws
 .idea/
 
 # The .vscode folder contains launch configuration and tasks you configure in
@@ -55,3 +45,7 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+.gitignore
+.metadata
+pubspec.lock
